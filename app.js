@@ -26,6 +26,7 @@ app.use((req, res, next) => {
 });
 
 app.use(errorHandler);
+console.log('111');
 
 app.listen(PORT, HOST, () => {
   // eslint-disable-next-line no-console
